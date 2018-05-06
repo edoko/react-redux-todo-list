@@ -31,6 +31,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
+// filter에 따라서 리스트 내용을 변경하여 리턴
 const selectTodos = (todos, filter) => {
   switch (filter) {
     case "SHOW_ALL":
